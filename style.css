@@ -1,0 +1,163 @@
+@font-face {
+  font-family:shabnam;
+  src: url(font/shabnam.ttf);
+}
+
+
+.login {
+
+	 background-color: #51c5a8 !important; 
+	 color: white !important;
+	 height: 32px;
+	 padding: 4px 15px !important;
+	 font-size: 14px !important;
+	 font-family: shabnam;
+}	
+
+.dwn {
+	 height: 32px;
+	 padding: 4px 15px !important;
+	  font-size: 14px !important;
+	 font-family: shabnam;
+	 color: rgba(0, 0, 0, 0.65) !important;
+}
+
+.center{
+	background-image: url(img/4.jpg);
+	background-position: center;
+	width: 120rem;
+	height: 50rem;
+}
+
+.p1 {
+	color: #51c5a8; 
+	font-family: shabnam;
+	direction: rtl;
+	font-size: 22px;
+}
+
+.p2 {
+	color: rgba(0, 0, 0, 0.65);
+	font-family: shabnam;
+	direction: rtl;
+	font-size: 14px;
+}
+
+.vorod {
+	color: #51c5a8 !important; 
+	font-size: 12px !important;
+	font-family: shabnam;
+	border-color: #51c5a8 !important;
+	font-weight: bold !important;
+	width: 7rem;
+}
+
+.img3 {
+	background-image: url(img/6.png) !important;
+	margin-top: 10px: 
+}
+
+.p3 {
+	color: #51c5a8; 
+	font-family: shabnam;
+	direction: rtl;
+	font-size: 22px;
+}
+
+.p4 {
+	color: rgba(0, 0, 0, 0.65);
+	font-family: shabnam;
+	direction: rtl;
+	font-size: 15px;
+}
+
+.card {
+	font-family: shabnam;
+	margin-left: 2px;
+	width: 120px;
+    height: 150px;
+    border: 1px solid #F3F3F3;
+    margin: 8px 2px;
+    border-radius: 8px !important;
+ }
+
+.card-body a {
+	font-family: shabnam;
+	color: #8F8F8F !important;
+	display: flex;
+	font-size: 11px;
+	justify-content: center;
+	text-align: center;
+}   
+
+
+.a {
+	width: 45px;
+	height:45px;
+	margin-left: 35px;
+	margin-top: 25px;
+}
+
+.b {
+	width: 45px;
+	height:45px;
+	margin-left: 35px;
+	margin-top: 25px;
+}
+
+
+.c {
+	width: 45px;
+	height:45px;
+	margin-left: 35px;
+	margin-top: 25px;
+}
+
+
+.d {
+	width: 45px;
+	height:45px;
+	margin-left: 35px;
+	margin-top: 25px;
+}
+
+.e {
+	width: 45px;
+	height:45px;
+	margin-left: 35px;
+	margin-top: 25px;
+}
+
+.img4 {
+	background-image: url(img/11.png) !important;
+	height: 56 !important;
+	float: right;
+	border-radius: 8px;
+	background-repeat: no-repeat;
+}
+
+.p5 {
+	color: #51c5a8;
+	font-size: 24px;
+	font-family: shabnam;
+	direction: rtl;
+	text-align: right;
+	margin-top: 85px ;
+}
+
+.p6 {
+	color: rgba(0, 0, 0, 0.65);
+	font-family: shabnam;
+	direction: rtl;
+	font-size: 14px;
+	text-align: right;
+}
+
+.img5 {
+	background-image: url(img/1.png);
+	background-repeat: no-repeat;
+	height: 310px;
+    max-width: 310px;
+    max-height: 310px;
+    margin-left: 17rem;
+}
