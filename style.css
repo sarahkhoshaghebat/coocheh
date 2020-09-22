@@ -1,163 +1,242 @@
+
 @font-face {
-  font-family:shabnam;
-  src: url(font/shabnam.ttf);
+  font-family: 'shabnam';
+  src: url('font/shabnam.ttf');
 }
 
 
-.login {
-
-	 background-color: #51c5a8 !important; 
-	 color: white !important;
-	 height: 32px;
-	 padding: 4px 15px !important;
-	 font-size: 14px !important;
-	 font-family: shabnam;
-}	
-
-.dwn {
-	 height: 32px;
-	 padding: 4px 15px !important;
-	  font-size: 14px !important;
-	 font-family: shabnam;
-	 color: rgba(0, 0, 0, 0.65) !important;
+.logo {
+	width: 260px;
+	height: 31px;
+	float: right;
+	margin-right: -40px;
+	padding-right: 0;
 }
 
-.center{
-	background-image: url(img/4.jpg);
-	background-position: center;
-	width: 120rem;
-	height: 50rem;
+
+header {
+	padding: 28px 68px;
 }
 
-.p1 {
-	color: #51c5a8; 
-	font-family: shabnam;
-	direction: rtl;
-	font-size: 22px;
-}
-
-.p2 {
-	color: rgba(0, 0, 0, 0.65);
-	font-family: shabnam;
-	direction: rtl;
-	font-size: 14px;
-}
 
 .vorod {
-	color: #51c5a8 !important; 
-	font-size: 12px !important;
-	font-family: shabnam;
-	border-color: #51c5a8 !important;
-	font-weight: bold !important;
-	width: 7rem;
+	background-color: #51c5a8 !important;
+	color: white;
+	border-color: #51c5a8;
+	border: 1px;
+	text-align: center;
+	position: relative;
 }
 
-.img3 {
-	background-image: url(img/6.png) !important;
-	margin-top: 10px: 
+button {
+	padding: 4px 15px;
+	font-size:  14px !important;
+	border-radius: 2px !important;
+	height: 32px !important;
+	font-family: shabnam !important;
 }
 
-.p3 {
-	color: #51c5a8; 
-	font-family: shabnam;
-	direction: rtl;
+.dwn {
+	position: relative;
+	text-align: center;
+	border: 1px solid transparent;
+	border-color: lightgray;
+	color: rgba(0, 0, 0, 0.65) !important;
+	margin-left: 3px;
+	background-color: white;
+}
+
+.background {
+	background-image: url(img/4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	min-height: 760px;
+	max-height: 880px;
+    display: flex;
+    margin-top: 55px;
+    padding: 40px 24px 16px;
+    position: relative;
+    max-height: 880px;
+    min-height: 760px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+.textbold , h3{
+	color: #51c5a8;
+	margin: 10px 0;
 	font-size: 22px;
-}
-
-.p4 {
-	color: rgba(0, 0, 0, 0.65);
+	text-align: center;
 	font-family: shabnam;
 	direction: rtl;
-	font-size: 15px;
 }
+
+
+.text {
+	text-align: center;
+	color: rgba(0, 0, 0, 0.65) !important;
+	font-size: 14px;
+	font-family: shabnam;
+	direction: rtl !important;
+	margin: 10px 0;
+}
+
+.login {
+	color: #51c5a8;
+	margin: 10px 0;
+    padding: 0 48px;
+    font-size: 12px;
+    white-space: nowrap;
+    font-weight: bold;
+    border-color: #51c5a8 !important;
+    border: 1px solid transparent;
+}
+
+
+.aval {
+	margin-top: -44rem;	
+
+}
+
+
+.background2 {
+	margin-top: 10rem;
+	background-image: url(img/6.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	align-items: center;
+	width: 88rem;
+    height: 22rem;
+    max-width: 780px;
+}
+
 
 .card {
-	font-family: shabnam;
-	margin-left: 2px;
 	width: 120px;
-    height: 150px;
-    border: 1px solid #F3F3F3;
-    margin: 8px 2px;
-    border-radius: 8px !important;
- }
-
-.card-body a {
-	font-family: shabnam;
-	color: #8F8F8F !important;
-	display: flex;
+	height: 150px;
+	border: 1px solid #F3F3F3 !important;
+	margin: 8px 2px;
 	font-size: 11px;
+	align-items: center;
+	border-radius: 8px !important;
+	flex-direction: column !important;
 	justify-content: center;
-	text-align: center;
-}   
-
-
-.a {
-	width: 45px;
-	height:45px;
-	margin-left: 35px;
-	margin-top: 25px;
+	flex-grow: 0px !important;
 }
 
-.b {
-	width: 45px;
-	height:45px;
-	margin-left: 35px;
-	margin-top: 25px;
-}
-
-
-.c {
-	width: 45px;
-	height:45px;
-	margin-left: 35px;
-	margin-top: 25px;
-}
-
-
-.d {
-	width: 45px;
-	height:45px;
-	margin-left: 35px;
-	margin-top: 25px;
-}
-
-.e {
-	width: 45px;
-	height:45px;
-	margin-left: 35px;
-	margin-top: 25px;
-}
-
-.img4 {
-	background-image: url(img/11.png) !important;
-	height: 56 !important;
-	float: right;
-	border-radius: 8px;
-	background-repeat: no-repeat;
-}
-
-.p5 {
-	color: #51c5a8;
-	font-size: 24px;
+a {
+	margin-top: 50px;
 	font-family: shabnam;
-	direction: rtl;
-	text-align: right;
-	margin-top: 85px ;
+	color: rgba(0, 0, 0, 0.65) !important;
+	justify-content: center;
+	text-align: center !important;
+
 }
 
-.p6 {
-	color: rgba(0, 0, 0, 0.65);
-	font-family: shabnam;
-	direction: rtl;
-	font-size: 14px;
-	text-align: right;
-}
 
-.img5 {
-	background-image: url(img/1.png);
-	background-repeat: no-repeat;
+.img1 {
 	height: 310px;
-    max-width: 310px;
-    max-height: 310px;
-    margin-left: 17rem;
+	min-height: 310px;
+	max-width: 310px;
+}
+
+
+.img2{
+	height: 56px;
+	margin-top: 5rem;
+	margin-bottom: 10px;
+}
+
+
+h3 {
+	text-align: right !important;
+	margin-top: 10px !important;
+}
+
+
+.matn {
+	text-align: right ;
+	margin-top: 10px;
+}
+
+
+.center {
+	margin-top: 10rem;
+}
+
+
+.center1 {
+	margin-top: 10rem;
+}
+
+
+.backgroundimg{
+	background-image: url(img/5.jpg);
+	height: 460px;
+    margin: 80px 0;
+    display: flex;
+    min-height: 100px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center 88%;
+    color: white;
+    font-family: shabnam;
+    font-size: 4rem;
+}
+
+
+.section {
+	background-color: #202020;
+	padding: 64px 32px;
+}
+
+
+.text1 {
+	color: white;
+    font-size: 22px;
+    text-align: right;
+    justify-content: right;
+}
+
+
+.text2 {
+	color: #8F8F8F;
+    margin: 20px 0;
+    font-size: 14px;
+    text-align: right;
+    justify-content: right;
+}
+
+
+footer {
+    background-color: #101010;
+    text-align: center;
+    font-family: shabnam;
+    justify-content: center;
+}
+
+.textend {
+	color: #8F8F8F;
+    margin: 40px 0;
+    font-size: 20px;
+}
+
+.end {
+	color: white !important;
+}
+
+
+footer .container {
+	width: 40%;
+    margin: 0 auto;
+    display: flex;
+    padding: 124px 20px;
+    flex-direction: column;
 }
