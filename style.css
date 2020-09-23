@@ -34,6 +34,7 @@ button {
 	border-radius: 2px !important;
 	height: 32px !important;
 	font-family: shabnam !important;
+
 }
 
 .dwn {
@@ -93,11 +94,12 @@ button {
     font-weight: bold;
     border-color: #51c5a8 !important;
     border: 1px solid transparent;
+    background-color: white;
 }
 
 
 .aval {
-	margin-top: -44rem;	
+	margin-top: -49rem;
 
 }
 
@@ -119,7 +121,7 @@ button {
 	height: 150px;
 	border: 1px solid #F3F3F3 !important;
 	margin: 8px 2px;
-	font-size: 11px;
+	font-size: 12px;
 	align-items: center;
 	border-radius: 8px !important;
 	flex-direction: column !important;
@@ -133,6 +135,7 @@ a {
 	color: rgba(0, 0, 0, 0.65) !important;
 	justify-content: center;
 	text-align: center !important;
+	text-decoration: none;
 
 }
 
@@ -222,14 +225,19 @@ footer {
     justify-content: center;
 }
 
+
 .textend {
 	color: #8F8F8F;
     margin: 40px 0;
     font-size: 20px;
+    font-family: shabnam;
 }
+
 
 .end {
 	color: white !important;
+	font-family: shabnam;
+
 }
 
 
@@ -239,4 +247,38 @@ footer .container {
     display: flex;
     padding: 124px 20px;
     flex-direction: column;
+}
+
+.circle {
+	color: #51c5a8;
+}
+
+.footer-link:hover {
+	color: #51c5a8 !important;
+	text-decoration: none;
+    
+}
+
+.card:hover {
+	background-color: rgb(203, 240, 255);
+	color: rgba(0, 0, 0, 0.65);
+}
+
+
+.header-button:hover{
+	color: #51c5a8 ;
+}
+
+
+.social {
+	margin-top: 60px;
+	top: 30vh;
+	left: 40px;
+	position: fixed;
+	float: left;
+}
+
+
+.social-img {
+	margin-top: 10px;
 }
