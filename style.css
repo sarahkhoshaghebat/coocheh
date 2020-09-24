@@ -55,13 +55,12 @@ button {
 	min-height: 760px;
 	max-height: 880px;
     display: flex;
-    margin-top: 55px;
+    margin-top: 40px;
     padding: 40px 24px 16px;
     position: relative;
     max-height: 880px;
     min-height: 760px;
     text-align: center;
-    align-items: center;
     
 }
 
@@ -95,12 +94,6 @@ button {
     border-color: #51c5a8 !important;
     border: 1px solid transparent;
     background-color: white;
-}
-
-
-.aval {
-	margin-top: -49rem;
-
 }
 
 
