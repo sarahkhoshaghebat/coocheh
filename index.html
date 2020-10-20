@@ -4,224 +4,259 @@
 	<title>coocheh</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="responsive.css">
-	<meta name="viewport" content="width=device-width">
-	<link href="template.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 1024px)" />
-	<link rel="stylesheet" media="only screen and (min-width: 0px) and (max-width: 327px)" href="mobile.css">
-	<link rel="stylesheet" media="only screen and (min-width:328px) and (max-width: 768px)" href="templates/template/tablet.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 <body>
-	<header class="border-bottom">
-		<div class="cntainer">
-			<div class="row">
-				<div class="col">
-					<button type="button" class="vorod">ورود/ثبت نام</button>
-					<button type="button" class="dwn header-button">دانلود</button>
-				</div>
-				<div class="col">
-					<img src="img/logo.png" class="logo">
-				</div>
+	<div class="container-fluid menu border-bottom">
+		<div class="row mb-4">
+			<div class="col-sm-4">
+				<button type="button" class="login ml-4">ورود/ثبت نام</button>
+				<button type="button" class="Download">دانلود</button>
 			</div>
-		</div>
-	</header>
-	<section class="background">
-		<div class="container">
-			<div class="row">
-				<div class="col textbold">
-					<span>این «کوچه» بن‌بست نیست</span>
-				</div>
+			<div class="col-sm-4 ml-auto">
+				<a href="#">
+					<img src="img/logo.png" class="img-logo">
+				</a>
 			</div>
-			<div class="row">
-				<div class="col mt-2">
-					<span class="text" dir="rtl">«کوچه»شبکۀ اجتماعی محلی برای ارتباط بین افرادیه که در نزدیکی هم هستند</span>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col">
-					<button type="button" class="login mt-4">ورود</button>
-				</div>
-			</div>
-		</div>
-		<div class="social">
-			<div  class="social-img">
-			<a href="https://twitter.com/coocheh">
-				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#51c5a8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
-			</a>
-		</div>
-		<div class="social-img">
-			<a href="https://instagram.com/coocheh/">
-				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#51c5a8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg>
-			</a>
-		</div>
-		<div  class="social-img">
-			<a href="https://www.linkedin.com/company/coocheh/"> 
-				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#51c5a8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-			</a>
 		</div>
 	</div>
+	<!-- background -->
+	<section class="background-img">
+		<div class="container">
+			<div class="row d-flex justify-content-md-center mt-5">
+				<div class="col-sm">
+					<h3 class="text-bold">این «کوچه» بن‌بست نیست</h3>
+				</div>	
+			</div>
+			<div class="row d-flex justify-content-md-center mt-1">
+				<div class="col-sm">
+					<h6 class="text">«کوچه» شبکۀ اجتماعی محلی برای ارتباط بین افرادیه که در نزدیکی هم هستند</h6>
+				</div>
+			</div>
+			<div class="row d-flex justify-content-md-center mt-3 ">
+				<div class="col-sm">
+					<button type="button" class="login-btn">ورود</button>
+				</div>
+			</div>
+			<div class="social lex-column">
+				<a href="https://twitter.com/coocheh">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#51c5a8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+					</a> 
+					<a href="https://www.instagram.com/coocheh/">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#51c5a8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg>
+					</a>
+					<a href="https://www.linkedin.com/company/coocheh/">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#51c5a8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+					</a>
+			</div>
+		</div>
+		<!-- pc -->
 	</section>
-	<div class="container-md">
-		<div class="row">
-			<div class="col-md  d-flex justify-content-center">
-				<div class="background2"></div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md d-flex justify-content-center">
-			<span class="textbold">«کوچه» رو به همه بازه!</span>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md d-flex justify-content-center">
-			<span class="text">برای اینکه بتونین کامنت، لایک و یا پست بذارین، کافیه چند دقیقه وقت بذارین و کوچه رو نصب کنین</span>
-			</div>
-		</div>	
-	</div>
-	<div class="cntainer">
-		<div class="row mt-5">
-			<div class="col-md d-flex justify-content-center">
-				<div class="card">
-					<img src="img/a.jpeg">
-					<a href="https://coocheh.com/post/@35.702183,51.4004697,13z">اپلیکیشن پیشرو</a>
-				</div>
-				<div class="card">
-					<img src="img/b.jpeg">
-					<a href="https://sibche.com/applications/coocheh">سیبچه</a>
-				</div>
-				<div class="card">
-					<img src="img/c.jpeg">
-					<a href="/dl/android/coocheh.apk">مستقیم اپلیکیشن اندروید</a>
-				</div>
-				<div class="card">
-					<img src="img/d.jpeg">
-					<a href="https://play.google.com/store/apps/details?id=com.coocheh.application">گوگل پلی</a>
-				</div>
-				<div class="card">
-					<img src="img/e.png">
-					<a href="https://cafebazaar.ir/app/com.coocheh.application">کافه بازار</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<section class="center">
 		<div class="container">
-			<div class="row">
-				<div class="col-md">
-					<div class="row ">
-						<div class="col-md d-flex justify-content-end">
-							<img src="img/11.png" class="img2">
-					</div>
-					</div>
-					<div class="row d-flex justify-content-end">
-						<div class="col-md">
-							<h3>هر جایی یه داستانی داره</h3>
-						</div>
-					</div>
-					<div class="row d-flex justify-content-end">
-						<div class="col-md d-flex justify-content-end">
-							<span class="text matn">می‌تونین در هر نقطه‌ای، پستی رو با دیگران به اشتراک بذارید. توی «کوچه» مکان‌ها نقاط اشتراک ما هستند. هر مکانی می‌تونه نقطه‌ای بشه برای ارتباط</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md d-flex justify-content-end">
-					<img src="img/1.png" class="img1">
+			<div class="row d-flex justify-content-md-center mt-5">
+				<div class="col-sm background-pc">
+					<img src="img/pc.png">
 				</div>
 			</div>
-			<div class="row center1">
-				<div class="col-md d-flex justify-content-center">
-					<img src="img/2.png" class="img1">
-				</div>
-				<div class="col-md">
-					<div class="row d-flex justify-content-end">
-							<img src="img/22.png" class="img2">
-						</div>
-						<div class="row d-flex justify-content-end">
-							<h3>هر محله پر از سورپرایزه</h3>
-						</div>
-						<div class="row d-flex justify-content-end">
-							<span class="text matn">محله‌ها پر از اخبار، اتفاقات، خاطرات، رویدادها و خدماتی هستند که باید به کمک شما به اشتراک گذاشته و دیده بشن</span>
-						</div>
-					</div>
-				</div>
-			<div class="row center1">
-				<div class="col-md">
-					<div class="row d-flex justify-content-end">
-						<img src="img/33.png" class="img2">
-					</div>
-					<div class="row d-flex justify-content-end">
-						<h3>از محله‌ فراتر برو</h3>
-					</div>
-					<div class="row d-flex justify-content-end">
-						<span class="text matn">شهر با کوچه‌ها زنده‌ست. با «کوچه» می‌شه از محله‌ها فراتر رفت و شهر رو با داستان‌ها و اونچه در اون می‌گذره دید</span>
-					</div>
-				</div>
-				<div class="col-md d-flex justify-content-end">
-					<img src="img/3.png" class="img1">
+			<div class="row d-flex justify-content-md-center mt-3">
+				<div class="col-sm">
+					<h3 class="text-bold">«کوچه» رو به همه بازه!</h3>
 				</div>
 			</div>
-		</div>
-	</section>
-	<div class="backgroundimg">
-		<span>کوچه‌ها رو با هم بگردیم</span>
-	</div>
-	<section class="section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md">
-					<div class="row d-flex justify-content-end">
-						<h3 class="text1">فضایی امن و مطمئن برای همه</h3>
-					</div>
-					<div class="row d-flex justify-content-end">
-						<span class="text2">«کوچه» تلاش می‌کنه به محتوایی که در اون منتشر می‌شه نظارت داشته باشه تا همیشه در «کوچه» احساس امنیت کنید</span>
-					</div>
-				</div>
-				<div class="col-md">
-					<div class="row d-flex justify-content-end">
-						<h3 class="text1">به حریم خصوصی احترام می‌گذاریم</h3>
-					</div>
-					<div class="row d-flex justify-content-end">
-						<span class="text2">اطلاعات افراد پیش ما محفوظه و برای مقاصد تجاری و غیرتجاری در اختیار دیگران قرار نخواهد گرفت</span>
-					</div>
+			<div class="row d-flex justify-content-md-center mt-3">
+				<div class="col-sm">
+					<h6 class="text">برای اینکه بتونین کامنت، لایک و یا پست بذارین، کافیه چند دقیقه وقت بذارین و کوچه رو نصب کنین</h6>	
 				</div>
 			</div>
-			<div class="row d-flex justify-content-end">
-				<div class="col-md">
-					<div class="row d-flex justify-content-end">
-						<h3 class="text1">رایگان، برای همه و همیشه</h3>
+			<div class="row no-gutters d-flex justify-content-sm-center mt-4">
+				<div class="col-1-sm col-4-md">
+					<div class="card">
+						<img src="img/app-pishro.jpeg" class="social-img">
+						<a href="/post" class="text">اپلیکیشن پیشرو</a>
 					</div>
-					<div class="row d-flex justify-content-end">
-						<span class="text2">خدمات «کوچه» برای کاربران عادی همیشه رایگان خواهد موند</span>
+				</div>
+				<div class="col-1-sm col-4-md">
+					<div class="card">
+						<img src="img/sibche.jpeg" class="social-img">
+						<a href="" class="text">سیبچه</a>
+					</div>
+				</div>
+				<div class="col-1-sm col-4-md">
+					<div class="card">
+						<img src="img/android.jpeg" class="social-img">
+						<a href="" class="text">مستقیم اپلیکیشن اندروید</a>
+					</div>
+				</div>
+				<div class="col-1-sm col-4-md">
+					<div class="card">
+						<img src="img/google-play.jpeg" class="social-img">
+						<a href="" class="text">گوگل پلی</a>
+					</div>
+				</div>
+				<div class="col-1-sm">
+					<div class="card">
+						<img src="img/bazar.png" class="social-img">
+						<a href="" class="text">کافه بازار</a>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
-	<footer>
-		<div class="container">
+		<!-- center -->
+		<div class="container center-mt">
+			<div class="row align-items-center mt-3">
+				<div class="col-sm">
+					<div class="row">
+						<div class="col-sm">
+							<img src="img/11.png" class="img-little">
+						</div>
+					</div>
+					<div class="row mt-2">
+						<div class="col-sm">
+							<h3 class="text-right text-bold">هر جایی یه داستانی داره</h3>
+						</div>
+					</div>
+					<div class="row mt-2">
+						<div class="col-sm">
+							<h6 class="text text-right ">می‌تونین در هر نقطه‌ای، پستی رو با دیگران به اشتراک بذارید. توی «کوچه» مکان‌ها نقاط اشتراک ما هستند. هر مکانی می‌تونه نقطه‌ای بشه برای ارتباط</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm justify-content-end">
+					<img src="img/1.png" class="img-big">
+				</div>
+			</div>
+			<div class="row align-items-center mt-5">
+				<div class="col-sm">
+					<img src="img/2.png" class="img-left">
+				</div>
+				<div class="col-sm">
+					<div class="row">
+						<div class="col-sm">
+							<img src="img/22.png" class="img-little">
+						</div>
+					</div>
+					<div class="row mt-2">
+						<div class="col-sm">
+							<h3 class="text-right text-bold">هر محله پر از سورپرایزه</h3>
+						</div>
+					</div>
+					<div class="row mt-2">
+						<div class="col-sm">
+							<h6 class="text text-right">محله‌ها پر از اخبار، اتفاقات، خاطرات، رویدادها و خدماتی هستند که باید به کمک شما به اشتراک گذاشته و دیده بشن</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row align-items-center mt-5">
+				<div class="col-sm">
+					<div class="row">
+						<div class="col-sm">
+							<img src="img/33.png" class="img-little">
+						</div>
+					</div>
+					<div class="row mt-2">
+						<div class="col-sm">
+							<h3 class="text-right text-bold">از محله‌ فراتر برو</h3>
+						</div>
+					</div>
+					<div class="row mt-2">
+						<div class="col-sm">
+							<h6 class="text-right text">شهر با کوچه‌ها زنده‌ست. با «کوچه» می‌شه از محله‌ها فراتر رفت و شهر رو با داستان‌ها و اونچه در اون می‌گذره دید</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm d-flex justify-content-end">
+					<img src="img/3.png" class="img-big">
+				</div>
+			</div>
+		</div>
+		<!--background-->
+		<div class="background-img-green">
+			<span class="text-green">کوچه‌ها رو با هم بگردیم</span>
+		</div>
+		<!-- Privacy -->
+		<div class="container-fluid Privacy">
+			<div class="row px-5">
+				<div class="col-sm">
+					<div class="row">
+						<div class="col-sm">
+							<h3 class="text-privacy-bold">فضایی امن و مطمئن برای همه</h3>		
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm">
+							<span class="text-privacy">«کوچه» تلاش می‌کنه به محتوایی که در اون منتشر می‌شه نظارت داشته باشه تا همیشه در «کوچه» احساس امنیت کنید</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm">
+					<div class="row">
+						<div class="col-sm">
+							<h3 class="text-privacy-bold">به حریم خصوصی احترام می‌گذاریم</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm">		
+					<span class="text-privacy">اطلاعات افراد پیش ما محفوظه و برای مقاصد تجاری و غیرتجاری در اختیار دیگران قرار نخواهد گرفت</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row px-5">
+				<div class="col-sm">
+					<div class="row">
+						<div class="col-sm">
+							<h3 class="text-privacy-bold">رایگان، برای همه و همیشه</h3>
+						</div>	
+					</div>
+					<div class="row">
+						<div class="col-sm">
+							<span class="text-privacy">خدمات «کوچه» برای کاربران عادی همیشه رایگان خواهد موند</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- footer -->
+		<div class="container-fluid footer">
 			<div class="row">
-				<div class="col-md">
-					<img src="img/44.png">
+				<div class="col-sm">
+					<img src="img/footer-img.png">
 				</div>
 			</div>
 			<div class="row mt-5">
-				<div class="col-md">
-					<span class="textend">شبکۀ اجتماعی محلی برای آنچه که در اطراف شما است</span>
+				<div class="col-sm">
+					<h3 class="text-footer">شبکۀ اجتماعی محلی برای آنچه که در اطراف شما است</h3>
 				</div>
 			</div>
-			<div class="row mt-5">
-				<div class="col-md">
-					<span class="end">info@coocheh.com</span>
+			<div class="row mt-3">
+				<div class="col-sm">
+					<span class="link">info@coocheh.com</span>
 					<span class="circle">●</span>
-					<a href="https://coocheh.com/blog/" class="end footer-link">بلاگ کوچه</a>
+					<a href="https://coocheh.com/blog/" class="footer-link">بلاگ کوچه</a>
 					<span class="circle">●</span>
-					<a href="https://coocheh.com/landings/terms/" class="end footer-link">قوانین و حریم خصوصی</a>
+					<a href="https://coocheh.com/landings/terms/" class="footer-link">قوانین و حریم خصوصی</a>
 				</div>
 			</div>
-		</div>
-	</footer>
-	
-</body>
+	</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

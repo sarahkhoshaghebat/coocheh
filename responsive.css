@@ -1,5 +1,31 @@
 
-@media screen and(min-width: 576px  max-width: 780px) {
-	.background2 { width: 80%  height:auto  max-width: 780px  min-width: 576px;}
+@media (max-width: 576px) {
+	.img-logo {
+		width: 100px;
+	}
 }
+
+@media (max-height: 880px){
+
+	.background-img {
+  	  background-position: center 100px;
+	}
 }
+
+@media (min-width: 768px){
+	.social {
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
