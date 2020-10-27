@@ -7,12 +7,15 @@
 }
 
 
-@media (min-width: 767px){
+@media (max-width: 767px){
 	.social {
-		top: 220px;
-		left: 40px;
-		position: fixed;
+		position: absolute;
 		display: inline;
+		top: unset;
+		left: unset;
+		float: none;
+		
+
 	}
 
 	.background-img {
