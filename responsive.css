@@ -7,11 +7,12 @@
 }
 
 
-@media (min-width: 768px){
+@media (min-width: 767px){
 	.social {
-		top: 30vh;
+		top: 220px;
 		left: 40px;
 		position: fixed;
+		display: inline;
 	}
 
 	.background-img {
