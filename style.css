@@ -11,7 +11,7 @@
 
 
 .img-logo {
-	width: 260px;
+	width: 150px;
 	height: 31px;
 	float: right;
 }
@@ -93,7 +93,8 @@ button {
     font-size: 12px;
     box-shadow: none;
     font-weight: bold;
-    border-color: #51c5a8;
+	border: 1px solid #51c5a8;
+	border-radius: 4px;
 }
 
 .social {
@@ -107,10 +108,7 @@ button {
 
 
 .background-pc {
-	background-repeat: no-repeat;
-    height: 330px;
-    width: 780px;
-    
+	width: 80%;
 
 }
 

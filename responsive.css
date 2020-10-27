@@ -2,21 +2,21 @@
 @media (max-width: 767px) {
 	.img-logo {
 		width: 90px;
+		height: 25px;
 	}
 }
 
-@media (max-height: 880px){
-
-	.background-img {
-  	  background-position: center 100px;
-	}
-}
 
 @media (min-width: 768px){
 	.social {
 		top: 30vh;
 		left: 40px;
 		position: fixed;
+	}
+
+	.background-img {
+		background-position: center 100px;
+		height: 97.5%;
 	}
   
 }
